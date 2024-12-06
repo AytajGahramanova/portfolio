@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Hero />
         <Technologies />
         <Experience />
+        <Projects />
         <Contact />
       </div>
     </div>

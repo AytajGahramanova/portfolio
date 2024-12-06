@@ -1,12 +1,15 @@
+import Logo from "../assets/image/logo-main.png";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between mb-10">
+    <nav className="w-full max-w-[1300px] mx-auto flex items-center justify-between mb-10">
       <div className="flex flex-shrink-0 items-center">
-        <h2>AG</h2>
+        <a href="/">
+          <img src={Logo} alt="logo" className="w-1/5 object-contain"/>
+        </a>
       </div>
       <div className="flex items-center justify-between py-6 m-8 text-xl gap-4">
         <a

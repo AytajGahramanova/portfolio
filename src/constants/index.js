@@ -1,15 +1,16 @@
 // import project1 from "../assets/projects/project-1.jpg";
-// import project2 from "../assets/projects/project-2.jpg";
-// import project3 from "../assets/projects/project-3.jpg";
-// import project4 from "../assets/projects/project-4.jpg";
+import githubProfile from "../assets/image/projects/githubProfile.png";
+import aktasplastic from "../assets/image/projects/aktasplastik.png";
+import minorgroup from "../assets/image/projects/minorgroup.png";
+import flags from "../assets/image/projects/flags.png"
 
-export const HERO_CONTENT = `Lorems simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.Jority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend. `;
+export const HERO_CONTENT = `I am proficient in HTML, CSS, JavaScript, and React, with expertise in modern libraries and frameworks. Renowned for my creative and analytical problem-solving skills, I bring attention to detail to every project. As a collaborative team player, I actively contribute to the success and innovation of projects, ensuring quality and efficiency.
 
-export const ABOUT_TEXT = `saalaaaaam`;
+ `;
 
 export const EXPERIENCES = [
   {
-    year: "27.08.2024 - Present",
+    year: "27.08.2024 - 27.11.2024",
     role: "Frontend Developer Intern",
     company: "Kvadrat MMC",
     description: `Worked closely with backend developers to integrate frontend components with APIs.Collaborating with the team on various stages of projects using React and Tailwind CSS.Expertise in creating efficient and high-performance web applications using Next.js.
@@ -39,36 +40,71 @@ export const EXPERIENCES = [
   },
 ];
 
-// export const PROJECTS = [
-//   {
-//     title: "E-Commerce Website",
-//     image: project1,
-//     description:
-//       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-//     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-//   },
-//   {
-//     title: "Task Management App",
-//     image: project2,
-//     description:
-//       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-//     technologies: ["HTML", "CSS", "Angular", "Firebase"],
-//   },
-//   {
-//     title: "Portfolio Website",
-//     image: project3,
-//     description:
-//       "A personal portfolio website showcasing projects, skills, and contact information.",
-//     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-//   },
-//   {
-//     title: "Blogging Platform",
-//     image: project4,
-//     description:
-//       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-//     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-//   },
-// ];
+export const PROJECTS = [
+  {
+    image: flags,
+    title: "Country Flags",
+    description:
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["#react", "#css"],
+    deploy: "https://flags-route.vercel.app/",
+    github: "https://github.com/AytajGahramanova/flags-route",
+  },
+  {
+    title: "Github Profile",
+    image: githubProfile,
+    description:
+      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    technologies: ["#html", "#css", "#javascript"],
+    deploy: "https://create-git-hub.vercel.app/",
+    github: "https://github.com/AytajGahramanova/createGitHub",
+  },
+  {
+    title: "Stuhmer",
+    // image: project3,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["#html", "#css", "#bootstrap", "#javascript"],
+    deploy: "",
+    github: "",
+  },
+  {
+    title: "Yumshah",
+    // image: project3,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["#html", "#css", "#bootstrap", "#javascript"],
+    deploy: "",
+    github: "",
+  },
+  {
+    title: "Minor Group",
+    image: minorgroup,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["#react", "#scss"],
+    deploy: "https://minorgroup.az/",
+    github: "https://github.com/gurularavel/minorfrontnew",
+  },
+  {
+    title: "Aktas Plastik",
+    image: aktasplastic,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["#html", "#css", "#bootstrap", "#javascript"],
+    deploy: "https://aktasplastik.az/az",
+    github: "https://github.com/gurularavel/aktasplastik",
+  },
+  {
+    title: "Books",
+    // image: project4,
+    description:
+      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    technologies: ["#react", "#css"],
+    deploy: "",
+    github: "https://github.com/AytajGahramanova/bookSearch",
+  },
+];
 
 export const CONTACT = {
   phoneNo: "+994 55 715 05 40 ",
