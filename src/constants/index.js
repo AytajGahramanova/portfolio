@@ -4,7 +4,7 @@ import aktasplastic from "../assets/image/projects/aktasplastik.png";
 import minorgroup from "../assets/image/projects/minorgroup.png";
 import flags from "../assets/image/projects/flags.png";
 
-export const HERO_CONTENT = `I am proficient in HTML, CSS, JavaScript, and React, with expertise in modern libraries and frameworks. Renowned for my creative and analytical problem-solving skills, I bring attention to detail to every project. As a collaborative team player, I actively contribute to the success and innovation of projects, ensuring quality and efficiency.
+export const HERO_CONTENT = `I am proficient in HTML, CSS, JavaScript and React with expertise in modern libraries and frameworks. Renowned for my creative and analytical problem-solving skills, I bring attention to detail to every project. As a collaborative team player, I actively contribute to the success and innovation of projects, ensuring quality and efficiency.
 
  `;
 
