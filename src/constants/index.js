@@ -54,7 +54,7 @@ export const PROJECTS = [
     title: "Github Profile",
     image: githubProfile,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "An application for managing tasks and projects, with features such as task assignment, and progress tracking.",
     technologies: ["#html", "#css", "#javascript"],
     deploy: "https://create-git-hub.vercel.app/",
     github: "https://github.com/AytajGahramanova/createGitHub",
