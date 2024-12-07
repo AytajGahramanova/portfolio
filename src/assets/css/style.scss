@@ -3,7 +3,6 @@
   justify-content: center;
   box-shadow: inset 0 0 0 6px #474646;
   width: 450px;
-  height: 450px;
   animation: photo_animate 8s ease-in-out infinite;
   img {
     width: 100%;
@@ -36,4 +35,15 @@
   width: 100%;
   aspect-ratio: 300 / 129;
   object-fit: cover;
+}
+#particles canvas {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+@media (max-width: 1024px) {
+  .profile-img {
+    box-shadow: none !important;
+  }
 }

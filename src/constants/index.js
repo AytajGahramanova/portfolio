@@ -1,8 +1,8 @@
-// import project1 from "../assets/projects/project-1.jpg";
+import assessment from "../assets/image/projects/assessment.png";
 import githubProfile from "../assets/image/projects/githubProfile.png";
 import aktasplastic from "../assets/image/projects/aktasplastik.png";
 import minorgroup from "../assets/image/projects/minorgroup.png";
-import flags from "../assets/image/projects/flags.png"
+import flags from "../assets/image/projects/flags.png";
 
 export const HERO_CONTENT = `I am proficient in HTML, CSS, JavaScript, and React, with expertise in modern libraries and frameworks. Renowned for my creative and analytical problem-solving skills, I bring attention to detail to every project. As a collaborative team player, I actively contribute to the success and innovation of projects, ensuring quality and efficiency.
 
@@ -60,6 +60,15 @@ export const PROJECTS = [
     github: "https://github.com/AytajGahramanova/createGitHub",
   },
   {
+    title: "Assessment",
+    image: assessment,
+    description:
+      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    technologies: ["#react", "#css"],
+    deploy: "https://custom-hooks-beta.vercel.app/",
+    github: "https://github.com/AytajGahramanova/customHooks",
+  },
+  {
     title: "Stuhmer",
     // image: project3,
     description:
@@ -73,6 +82,15 @@ export const PROJECTS = [
     // image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["#html", "#css", "#bootstrap", "#javascript"],
+    deploy: "",
+    github: "",
+  },
+  {
+    title: "İpotekAl",
+    // image: project4,
+    description:
+      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["#html", "#css", "#bootstrap", "#javascript"],
     deploy: "",
     github: "",
@@ -94,15 +112,6 @@ export const PROJECTS = [
     technologies: ["#html", "#css", "#bootstrap", "#javascript"],
     deploy: "https://aktasplastik.az/az",
     github: "https://github.com/gurularavel/aktasplastik",
-  },
-  {
-    title: "Books",
-    // image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["#react", "#css"],
-    deploy: "",
-    github: "https://github.com/AytajGahramanova/bookSearch",
   },
 ];
 

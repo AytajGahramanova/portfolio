@@ -5,6 +5,9 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiNextdotjs } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa6";
 import { motion } from "framer-motion";
+import "../assets/css/common.scss";
+import "../assets/css/style.scss";
+
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
