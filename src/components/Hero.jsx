@@ -26,7 +26,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-6 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl"
+              className="pb-6 lg:pb-3 text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl"
             >
               Aytac Gahramanova
             </motion.h2>
